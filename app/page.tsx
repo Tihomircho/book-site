@@ -308,10 +308,7 @@ export default function BookLandingPage() {
             className="card bg-black border-danger mx-auto p-4 p-sm-5 shadow-lg"
             style={{ maxWidth: "550px", borderRadius: "16px" }}
           >
-            <div className="text-muted text-decoration-through small mb-1">
-              Стара цена: 25.00 лв.
-            </div>
-            <div className="display-6 fw-black text-danger mb-4">19.90 лв.</div>
+            <div className="display-6 fw-black text-danger mb-4">12€</div>
 
             <form onSubmit={handleSubmit} className="text-start">
               <div className="mb-3">
