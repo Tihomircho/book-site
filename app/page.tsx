@@ -155,9 +155,9 @@ export default function BookLandingPage() {
 
       {/* 2. ГЛАВНА СЕКЦИЯ (HERO) */}
       <section className="container py-5 my-5">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center g-lg-5">
           {/* Текст */}
-          <div className="col-lg-7 text-center text-lg-start">
+          <div className="col-lg-7 col-12 text-center text-lg-start">
             <span className="badge bg-danger text-uppercase mb-3 px-3 py-2 tracking-wider">
               Автобиографичен роман
             </span>
@@ -188,7 +188,7 @@ export default function BookLandingPage() {
           </div>
 
           {/* Визуализация на Корицата */}
-          <div className="col-lg-5 d-flex justify-content-center">
+          <div className="col-lg-5 d-flex justify-content-center py-5 py-lg-0">
             <div
               className="card bg-dark border-secondary shadow-lg overflow-hidden"
               style={{ maxWidth: "360px", borderRadius: "12px" }}
@@ -217,6 +217,8 @@ export default function BookLandingPage() {
               </div>
             </div>
           </div>
+
+          {/* Анимирана версия на корицата */}
         </div>
       </section>
 
