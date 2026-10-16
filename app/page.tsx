@@ -208,7 +208,11 @@ export default function BookLandingPage() {
                   Корица: КЕЛЕШ
                 </span>
                 <small className="text-danger mt-2">
-                  [ Заменете с &lt;img src="..." /&gt; ]
+                  <img
+                    src="/assets/cover-jivota-na-edin-kelesh.png"
+                    alt="Корица на книгата"
+                    className="img-fluid"
+                  />
                 </small>
               </div>
             </div>
